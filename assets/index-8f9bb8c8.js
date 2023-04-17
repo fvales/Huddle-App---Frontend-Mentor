@@ -74,7 +74,7 @@ Error generating stack: `+o.message+`
     @media only screen and (min-width: ${({theme:e})=>e.size.tablet}) {
         width: 10em;
     }
-`,Uh="/HuddleApp/assets/logo-337daa2f.svg",Hh=fe.button`
+`,Uh="/HuddleApp/dist/assets/logo-337daa2f.svg",Hh=fe.button`
     transition-timing-function: ease-in-out;
     transition-delay: 100ms;
     cursor: pointer;
@@ -339,11 +339,11 @@ Error generating stack: `+o.message+`
     @media only screen and (min-width: ${({theme:e})=>e.size.tablet}) {
         padding: 0 6rem 4rem 6rem;
     }
-`,Ma="/HuddleApp/assets/logo-white-0ae2a444.svg",qh="/HuddleApp/assets/icon-phone-267e87aa.svg",bh="/HuddleApp/assets/icon-email-bebcb3b2.svg",e0="/HuddleApp/assets/bg-footer-top-desktop-cb273ed7.svg",t0="/HuddleApp/assets/bg-footer-top-mobile-4756bb91.svg",n0="/HuddleApp/assets/logo-facebook-121df11a.svg",r0="/HuddleApp/assets/logo-twitter-2da5de02.svg",l0="/HuddleApp/assets/logo-instagram-7a970678.svg",qt=fe.div`
+`,Ma="/HuddleApp/dist/assets/logo-white-0ae2a444.svg",qh="/HuddleApp/dist/assets/icon-phone-267e87aa.svg",bh="/HuddleApp/dist/assets/icon-email-bebcb3b2.svg",e0="/HuddleApp/dist/assets/bg-footer-top-desktop-cb273ed7.svg",t0="/HuddleApp/dist/assets/bg-footer-top-mobile-4756bb91.svg",n0="/HuddleApp/dist/assets/logo-facebook-121df11a.svg",r0="/HuddleApp/dist/assets/logo-twitter-2da5de02.svg",l0="/HuddleApp/dist/assets/logo-instagram-7a970678.svg",qt=fe.div`
     display: flex;
     flex-direction: ${({direction:e})=>e||"row"} ;
     gap: ${({gap:e})=>e||"0"};
-`,o0=()=>ne(qt,{direction:"column",as:"footer",children:[ne(Zh,{children:[D("source",{media:"(min-width: 768px)",srcset:e0}),D("source",{media:"(max-width: 768px)",srcset:t0}),D("img",{src:"",alt:"footer",draggable:"false"})]}),ne(Kh,{children:[ne(qt,{as:"article",direction:"column",gap:"1rem",children:[D("h3",{children:"Newsletter"}),D("p",{children:"To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address"}),ne(Xh,{children:[D("label",{for:"email",className:"sr-only",children:"e-mail"}),D("input",{type:"e-mail",name:"email",id:"email"}),D(Hh,{type:"submit",kind:"primary",children:"Subscribe"})]})]}),ne(qt,{direction:"column",gap:"2rem",children:[ne("picture",{children:[D("source",{srcset:Ma}),D("img",{src:Ma,alt:"logo"})]}),ne(qt,{direction:"column",gap:"1rem",as:"address",children:["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.",ne(qt,{gap:"1rem",children:[D("img",{src:qh,alt:"phone"}),D("span",{children:"Phone: +1-543-123-4567"})]}),ne(qt,{gap:"1rem",children:[D("img",{src:bh,alt:"e-mail"}),D("span",{children:"example@huddle.com"})]})]})]})]}),ne(qt,{gap:"1rem",as:Jh,children:[D(ci,{src:n0,alt:"facebook"}),D(ci,{src:l0,alt:"instagram"}),D(ci,{src:r0,alt:"twitter"})]})]}),i0="/HuddleApp/assets/screen-mockups-90c6c3b6.svg",u0=fe.div`
+`,o0=()=>ne(qt,{direction:"column",as:"footer",children:[ne(Zh,{children:[D("source",{media:"(min-width: 768px)",srcset:e0}),D("source",{media:"(max-width: 768px)",srcset:t0}),D("img",{src:"",alt:"footer",draggable:"false"})]}),ne(Kh,{children:[ne(qt,{as:"article",direction:"column",gap:"1rem",children:[D("h3",{children:"Newsletter"}),D("p",{children:"To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address"}),ne(Xh,{children:[D("label",{for:"email",className:"sr-only",children:"e-mail"}),D("input",{type:"e-mail",name:"email",id:"email"}),D(Hh,{type:"submit",kind:"primary",children:"Subscribe"})]})]}),ne(qt,{direction:"column",gap:"2rem",children:[ne("picture",{children:[D("source",{srcset:Ma}),D("img",{src:Ma,alt:"logo"})]}),ne(qt,{direction:"column",gap:"1rem",as:"address",children:["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.",ne(qt,{gap:"1rem",children:[D("img",{src:qh,alt:"phone"}),D("span",{children:"Phone: +1-543-123-4567"})]}),ne(qt,{gap:"1rem",children:[D("img",{src:bh,alt:"e-mail"}),D("span",{children:"example@huddle.com"})]})]})]})]}),ne(qt,{gap:"1rem",as:Jh,children:[D(ci,{src:n0,alt:"facebook"}),D(ci,{src:l0,alt:"instagram"}),D(ci,{src:r0,alt:"twitter"})]})]}),i0="/HuddleApp/dist/assets/screen-mockups-90c6c3b6.svg",u0=fe.div`
     padding: 3rem;
 
     img {
@@ -374,7 +374,7 @@ Error generating stack: `+o.message+`
         font-size: 3rem;
         font-weight: 700;
     }
-`,a0="/HuddleApp/assets/icon-communities-2595fb57.svg",c0="/HuddleApp/assets/icon-messages-78c67eca.svg",f0=fe.article`
+`,a0="/HuddleApp/dist/assets/icon-communities-2595fb57.svg",c0="/HuddleApp/dist/assets/icon-messages-78c67eca.svg",f0=fe.article`
     display: flex;
     flex-direction: column;
     padding: 3rem;
@@ -403,7 +403,7 @@ Error generating stack: `+o.message+`
             text-align: left;
         }
     }
-`,p0=fe.img``,fi=({title:e,description:t,image:n,imageAlignment:r})=>ne(f0,{imageAlignment:r,children:[ne(d0,{children:[D("h1",{children:e}),D("p",{children:t})]}),D("div",{children:D(p0,{src:n,alt:e})})]}),m0="/HuddleApp/assets/illustration-your-users-8940608d.svg",h0="/HuddleApp/assets/illustration-grow-together-22e15ae8.svg",v0="/HuddleApp/assets/illustration-flowing-conversation-763f52dd.svg",g0=()=>ne(Ad,{children:[ne(u0,{children:[ne("picture",{children:[D("source",{srcset:i0}),D("img",{src:"",alt:"screen mockup"})]}),ne(s0,{children:[ne(ja,{children:[D("img",{src:a0,alt:""}),D("h3",{children:"1.4K+"}),D("span",{children:"Communities Formed"})]}),ne(ja,{children:[D("img",{src:c0,alt:""}),D("h3",{children:"2.7m+"}),D("span",{children:"Messages Sent"})]})]})]}),D(fi,{title:"Grow Together",description:`Generate meaningful discussions with your audience and build a strong, loyal community. \r
+`,p0=fe.img``,fi=({title:e,description:t,image:n,imageAlignment:r})=>ne(f0,{imageAlignment:r,children:[ne(d0,{children:[D("h1",{children:e}),D("p",{children:t})]}),D("div",{children:D(p0,{src:n,alt:e})})]}),m0="/HuddleApp/dist/assets/illustration-your-users-8940608d.svg",h0="/HuddleApp/dist/assets/illustration-grow-together-22e15ae8.svg",v0="/HuddleApp/dist/assets/illustration-flowing-conversation-763f52dd.svg",g0=()=>ne(Ad,{children:[ne(u0,{children:[ne("picture",{children:[D("source",{srcset:i0}),D("img",{src:"",alt:"screen mockup"})]}),ne(s0,{children:[ne(ja,{children:[D("img",{src:a0,alt:""}),D("h3",{children:"1.4K+"}),D("span",{children:"Communities Formed"})]}),ne(ja,{children:[D("img",{src:c0,alt:""}),D("h3",{children:"2.7m+"}),D("span",{children:"Messages Sent"})]})]})]}),D(fi,{title:"Grow Together",description:`Generate meaningful discussions with your audience and build a strong, loyal community. \r
             Think of the insightful conversations you miss out on with a feedback form.`,image:h0}),D(fi,{title:"Flowing Conversations",description:`You wouldn't paginate a conversation in real life, so why do it online? Our threads have \r
             just-in-time loading for a more natural flow.`,image:v0,imageAlignment:"left"}),D(fi,{title:"Your Users",description:`It takes no time at all to integrate Huddle with your app's authentication solution. This means, \r
             once signed in to your app, your users can start chatting immediately.`,image:m0})]});function y0(){return ne(Oh,{theme:{colors:{primary:"hsl(322, 100%, 66%)",accent:"hsl(321, 100%, 78%)",error:"hsl(0, 100%, 63%)",footer:"hsl(192, 100%, 9%)",pale_blue:"hsl(207, 100%, 98%)",white:"hsl(255, 255%, 255%)"},font:{heading:"Poppins",body:"Open Sans"},size:{mobileS:"320px",mobileM:"375px",mobileL:"425px",tablet:"768px",laptop:"1024px",laptopL:"1440px",desktop:"2560px"}},children:[D(Gh,{}),D(Yh,{}),D(g0,{}),D(o0,{})]})}di.createRoot(document.getElementById("root")).render(D(mn.StrictMode,{children:D(y0,{})}));
