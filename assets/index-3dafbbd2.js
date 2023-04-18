@@ -391,7 +391,7 @@ Error generating stack: `+o.message+`
         left: 0;
         background-repeat: no-repeat;
         position: absolute;
-        top: 55%;
+        top: 57%;
         background-image: url(${({hasBg:e,bgMobileBottom:t})=>e?t:"unset"});
         
         @media only screen and (min-width: ${({theme:e})=>e.size.tablet}) {
