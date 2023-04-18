@@ -76,7 +76,7 @@ Error generating stack: `+o.message+`
     }
 `,Hh="/HuddleApp/assets/logo-337daa2f.svg",Oo=me.button`
     transition-timing-function: ease-in-out;
-    transition-delay: 100ms;
+    transition-delay: 200ms;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
 
@@ -90,6 +90,9 @@ Error generating stack: `+o.message+`
                 &:hover {
                     box-shadow: 0 0 2px ${({theme:t})=>t.colors.accent};
                     background-color: ${({theme:t})=>t.colors.accent};
+                    -webkit-box-shadow: 0px 2px 10px -4px rgba(0,0,0,1);
+                    -moz-box-shadow: 0px 2px 10px -4px rgba(0,0,0,1);
+                    box-shadow: 0px 2px 10px -4px rgba(0,0,0,1);
                 };
             `;case"secondary":return Zl`
                 background-color: ${({theme:t})=>t.colors.white};
