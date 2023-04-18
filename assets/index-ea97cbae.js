@@ -323,10 +323,12 @@ Error generating stack: `+o.message+`
     flex-direction: ${({direction:e})=>e||"row"} ;
     gap: ${({gap:e})=>e||"0"};
 `,l0=()=>q(Ga,{children:[q(Xh,{children:[L("source",{media:"(min-width: 768px)",srcSet:bh}),L("source",{media:"(max-width: 768px)",srcSet:e0}),L("img",{src:"",alt:"footer",draggable:"false"})]}),q(Yh,{children:[q(Gh,{children:[q(gn,{as:"article",direction:"column",gap:"1rem",children:[L("h3",{children:"Newsletter"}),L("p",{children:"To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address"}),q(Kh,{children:[L("label",{htmlFor:"email",className:"sr-only",children:"e-mail"}),L("input",{type:"e-mail",name:"email",id:"email"}),L(Oo,{type:"submit",kind:"primary",children:"Subscribe"})]})]}),q(gn,{direction:"column",gap:"2rem",children:[q("picture",{children:[L("source",{srcSet:Fa}),L("img",{src:Fa,alt:"logo"})]}),q(gn,{direction:"column",gap:"1rem",as:"address",children:["Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.",q(gn,{gap:"1rem",children:[L("img",{src:Jh,alt:"phone"}),L("span",{children:"Phone: +1-543-123-4567"})]}),q(gn,{gap:"1rem",children:[L("img",{src:qh,alt:"e-mail"}),L("span",{children:"example@huddle.com"})]})]})]})]}),q(gn,{gap:"1rem",as:Zh,children:[L("a",{href:"#",target:"_blank",children:L(fi,{src:t0,alt:"facebook"})}),L("a",{href:"https://www.instagram.com/_fvales_",target:"_blank",children:L(fi,{src:r0,alt:"instagram"})}),L("a",{href:"https://twitter.com/_FVales_",target:"_blank",children:L(fi,{src:n0,alt:"twitter"})})]}),q("p",{children:["Challenge by ",L("a",{href:"https://www.frontendmentor.io?ref=challenge",target:"_blank",children:"Frontend Mentor"}),". Coded by ",L("a",{href:"https://in.linkedin.com/in/freeda-vales",target:"_blank",children:"Freeda Vales"}),"."]})]})]}),o0="/HuddleApp/assets/screen-mockups-90c6c3b6.svg",i0=me.div`
+    display: flex;
+    flex-direction: column;
     padding: 3rem;
 
-    img {
-        margin-left: 0 auto;
+    picture {
+        align-self: center;
     }
 
     @media only screen and (min-width: ${({theme:e})=>e.size.tablet}) {
