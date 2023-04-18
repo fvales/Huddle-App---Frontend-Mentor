@@ -78,6 +78,7 @@ Error generating stack: `+o.message+`
     transition-timing-function: ease-in-out;
     transition-delay: 100ms;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 
     ${({kind:e})=>{switch(e){case"primary":return Zl`
                 background-color: ${({theme:t})=>t.colors.primary};
