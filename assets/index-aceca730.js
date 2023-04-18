@@ -363,7 +363,7 @@ Error generating stack: `+o.message+`
     flex-flow: column-reverse;
     position: relative;
     background-color: ${({theme:e,hasBg:t})=>t?e.colors.pale_blue:"unset"};
-    margin: 5rem 0;
+    margin: 10rem 0;
 
     &:before {
         content: "";
@@ -376,7 +376,8 @@ Error generating stack: `+o.message+`
         position: absolute;
         top: -60%;
         background-image: url(${({hasBg:e,bgMobileTop:t})=>e?t:"unset"});
-        
+        z-index: -1;
+
         @media only screen and (min-width: ${({theme:e})=>e.size.tablet}) {
             background-image: url(${({hasBg:e,bgDesktopTop:t})=>e?t:"unset"});
         }
@@ -391,9 +392,10 @@ Error generating stack: `+o.message+`
         left: 0;
         background-repeat: no-repeat;
         position: absolute;
-        top: 57%;
+        top: 60%;
         background-image: url(${({hasBg:e,bgMobileBottom:t})=>e?t:"unset"});
-        
+        z-index: -1;
+
         @media only screen and (min-width: ${({theme:e})=>e.size.tablet}) {
             background-image: url(${({hasBg:e,bgDesktopBottom:t})=>e?t:"unset"});
         }
@@ -445,7 +447,7 @@ Error generating stack: `+o.message+`
     @media only screen and (min-width: ${({theme:e})=>e.size.tablet}) {
         padding: 6rem;
     }
-`,v0="/HuddleApp/assets/bg-section-top-desktop-1-4794e071.svg",y0="/HuddleApp/assets/bg-section-top-mobile-1-d45de330.svg",w0="/HuddleApp/assets/bg-section-bottom-desktop-1-d4b34cba.svg",S0="/HuddleApp/assets/bg-section-bottom-mobile-1-1f059498.svg",k0="/HuddleApp/assets/bg-section-top-desktop-2-63270129.svg",x0="/HuddleApp/assets/bg-section-top-mobile-2-38556b85.svg",C0="/HuddleApp/assets/bg-section-bottom-desktop-2-36474d63.svg",E0="/HuddleApp/assets/bg-section-bottom-mobile-2-9b4dd2bd.svg",_0=()=>q(Ga,{children:[q(i0,{children:[q("picture",{children:[L("source",{srcSet:o0}),L("img",{src:"",alt:"screen mockup"})]}),q(u0,{children:[q(Da,{children:[L("img",{src:s0,alt:""}),L("h3",{children:"1.4K+"}),L("span",{children:"Communities Formed"})]}),q(Da,{children:[L("img",{src:a0,alt:""}),L("h3",{children:"2.7m+"}),L("span",{children:"Messages Sent"})]})]})]}),L(di,{title:"Grow Together",hasBg:!0,bgDesktopTop:v0,bgDesktopBottom:w0,bgMobileTop:y0,bgMobileBottom:S0,description:`Generate meaningful discussions with your audience and build a strong, loyal community. \r
+`,v0="/HuddleApp/assets/bg-section-top-desktop-1-4794e071.svg",y0="/HuddleApp/assets/bg-section-top-mobile-1-d45de330.svg",w0="/HuddleApp/assets/bg-section-bottom-desktop-1-d4b34cba.svg",S0="/HuddleApp/assets/bg-section-bottom-mobile-1-eb888609.svg",k0="/HuddleApp/assets/bg-section-top-desktop-2-63270129.svg",x0="/HuddleApp/assets/bg-section-top-mobile-2-38556b85.svg",C0="/HuddleApp/assets/bg-section-bottom-desktop-2-36474d63.svg",E0="/HuddleApp/assets/bg-section-bottom-mobile-2-9b4dd2bd.svg",_0=()=>q(Ga,{children:[q(i0,{children:[q("picture",{children:[L("source",{srcSet:o0}),L("img",{src:"",alt:"screen mockup"})]}),q(u0,{children:[q(Da,{children:[L("img",{src:s0,alt:""}),L("h3",{children:"1.4K+"}),L("span",{children:"Communities Formed"})]}),q(Da,{children:[L("img",{src:a0,alt:""}),L("h3",{children:"2.7m+"}),L("span",{children:"Messages Sent"})]})]})]}),L(di,{title:"Grow Together",hasBg:!0,bgDesktopTop:v0,bgDesktopBottom:w0,bgMobileTop:y0,bgMobileBottom:S0,description:`Generate meaningful discussions with your audience and build a strong, loyal community. \r
             Think of the insightful conversations you miss out on with a feedback form.`,image:m0}),L(di,{title:"Flowing Conversations",description:`You wouldn't paginate a conversation in real life, so why do it online? Our threads have \r
             just-in-time loading for a more natural flow.`,image:h0,hasBg:!1,imageAlignment:"left"}),L(di,{title:"Your Users",hasBg:!0,bgDesktopTop:k0,bgDesktopBottom:C0,bgMobileTop:x0,bgMobileBottom:E0,description:`It takes no time at all to integrate Huddle with your app's authentication solution. This means, \r
             once signed in to your app, your users can start chatting immediately.`,image:p0}),q(g0,{children:[L("h2",{children:"Ready To Build Your Community?"}),L(Oo,{kind:"primary",children:"Get Started For Free"})]})]});function P0(){return q(Ih,{theme:{colors:{primary:"hsl(322, 100%, 66%)",accent:"hsl(321, 100%, 78%)",error:"hsl(0, 100%, 63%)",footer:"hsl(192, 100%, 9%)",pale_blue:"hsl(207, 100%, 98%)",white:"hsl(255, 255%, 255%)"},font:{heading:"Poppins",body:"Open Sans"},size:{mobileS:"320px",mobileM:"375px",mobileL:"425px",tablet:"768px",laptop:"1024px",laptopL:"1440px",desktop:"2560px"}},children:[L(Qh,{}),L(Wh,{}),L(_0,{}),L(l0,{})]})}pi.createRoot(document.getElementById("root")).render(L(pn.StrictMode,{children:L(P0,{})}));
