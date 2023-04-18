@@ -402,6 +402,7 @@ Error generating stack: `+o.message+`
     flex-direction: column;
     gap: 2rem;
     align-items: center;
+    text-align: center;
 
     > h2 {
         font-weight: 700;
