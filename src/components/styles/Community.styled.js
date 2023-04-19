@@ -20,5 +20,9 @@ export const CommunitySection = styled.div`
 
     @media only screen and (min-width: ${({theme}) => theme.size.tablet}) {
         padding: 6rem;
+
+        > h2 {
+            font-size: 2rem;
+        }
     }
 `

@@ -73,6 +73,10 @@ export const Body = styled.div`
         > h2, p {
             text-align: left;
         }
+
+        > h2 {
+            font-size: 2rem;
+        }
     }
 `
 
