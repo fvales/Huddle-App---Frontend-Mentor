@@ -66,7 +66,7 @@ Error generating stack: `+o.message+`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 6rem;
+    margin-bottom: 10rem;
 `,Uh=me.img`
     width: 8em;
 
