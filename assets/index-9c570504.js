@@ -445,7 +445,7 @@ Error generating stack: `+o.message+`
 
     > button {
         border-radius: 35px;
-        padding: 0.875em 2.5em;
+        padding: 1em 2.5em;
     }
 
     @media only screen and (min-width: ${({theme:e})=>e.size.tablet}) {
