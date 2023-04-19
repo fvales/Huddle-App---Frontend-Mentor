@@ -34,7 +34,7 @@ export const StatisticsInfo = styled.div`
     }
 
     > h3 {
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: 700;
     }
 `

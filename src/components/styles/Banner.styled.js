@@ -20,7 +20,7 @@ export const StyledBanner = styled.article`
 
     button {
         border-radius: 35px;
-        padding: 0.875em 2.5em;
+        padding: 1em 2.5em;
         align-self: center;
     }
 
