@@ -13,7 +13,7 @@ export const Nav = styled.nav`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 6rem;
+    margin-bottom: 10rem;
 `
 
 export const Logo = styled.img`
