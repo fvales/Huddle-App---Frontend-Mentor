@@ -1,5 +1,4 @@
 import Header from './components/Header'
-import { Container } from './components/styles/Container.styled'
 import { ThemeProvider } from 'styled-components'
 import GlobalStyle from './components/styles/Global'
 import Footer from './components/Footer'

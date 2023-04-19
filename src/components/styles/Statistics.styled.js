@@ -1,10 +1,12 @@
 import styled from "styled-components";
 
 export const StatisticsSection = styled.div`
+    display: flex;
+    flex-direction: column;
     padding: 3rem;
 
-    img {
-        margin-left: 0 auto;
+    picture {
+        align-self: center;
     }
 
     @media only screen and (min-width: ${({theme}) => theme.size.tablet}) {

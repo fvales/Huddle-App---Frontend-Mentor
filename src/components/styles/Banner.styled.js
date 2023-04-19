@@ -15,9 +15,12 @@ export const StyledBanner = styled.article`
     p {
         margin: 0 auto;
         text-indent: 1.5rem;
+        text-align: center;
     }
 
     button {
+        border-radius: 35px;
+        padding: 0.875em 2.5em;
         align-self: center;
     }
 
@@ -26,7 +29,6 @@ export const StyledBanner = styled.article`
 
         p {
             width: 50%;
-            text-align: center;
             text-indent: unset;
         }
 

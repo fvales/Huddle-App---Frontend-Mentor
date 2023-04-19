@@ -2,8 +2,9 @@ import styled, { css } from 'styled-components'
 
 export const Button = styled.button`
     transition-timing-function: ease-in-out;
-    transition-delay: 100ms;
+    transition-delay: 200ms;
     cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
 
     ${({kind}) => {
         switch(kind) {
@@ -18,6 +19,9 @@ export const Button = styled.button`
                 &:hover {
                     box-shadow: 0 0 2px ${({ theme }) => theme.colors.accent};
                     background-color: ${({ theme }) => theme.colors.accent};
+                    -webkit-box-shadow: 0px 2px 10px -4px rgba(0,0,0,1);
+                    -moz-box-shadow: 0px 2px 10px -4px rgba(0,0,0,1);
+                    box-shadow: 0px 2px 10px -4px rgba(0,0,0,1);
                 };
             `;
             case 'secondary': 
@@ -25,6 +29,8 @@ export const Button = styled.button`
                 background-color: ${({ theme }) => theme.colors.white};
                 border: 1px solid ${({ theme }) => theme.colors.primary};
                 color: ${({ theme }) => theme.colors.primary};
+                padding: 0.5em 1.875em;
+                border-radius: 35px;
 
                 &:hover {
                     box-shadow: 0 0 2px ${({ theme }) => theme.colors.accent};
@@ -33,38 +39,4 @@ export const Button = styled.button`
             `;
         }
     }}
-`
-
-export const SecondaryButton = styled.button`
-    background-color: ${({ theme }) => theme.colors.white};
-    border: 1px solid ${({ theme }) => theme.colors.primary};
-    border-radius: 35px;
-    padding: 0.5em 1.875em;
-    color: ${({ theme }) => theme.colors.primary};
-    cursor: pointer;
-
-    &:hover {
-        transition-timing-function: ease-in-out;
-        transition-delay: 100ms;
-        box-shadow: 0 0 2px ${({ theme }) => theme.colors.accent};
-        color: ${({ theme }) => theme.colors.accent}
-    }
-`
-
-export const PrimaryButton = styled.button`
-    background-color: ${({ theme }) => theme.colors.primary};
-    border: none;
-    border-radius: 35px;
-    padding: 1em 4em;
-    color: ${({ theme }) => theme.colors.white};
-    cursor: pointer;
-    font-weight: 700;
-    text-transform: capitalize;
-
-    &:hover {
-        transition-timing-function: ease-in-out;
-        transition-delay: 100ms;
-        box-shadow: 0 0 2px ${({ theme }) => theme.colors.accent};
-        background-color: ${({ theme }) => theme.colors.accent};
-    }
 `

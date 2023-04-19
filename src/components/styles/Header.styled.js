@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const StyledHeader = styled.header`
     background-color: ${({theme}) => theme.colors.white};
     padding: 2rem;
-    font-family: ${({theme}) => theme.font.heading};
 
     @media only screen and (min-width: ${({theme}) => theme.size.laptop}) {
         padding: 2.5rem;

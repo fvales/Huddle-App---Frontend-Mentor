@@ -1,13 +1,26 @@
 import styled from "styled-components"; 
-import { Button } from "./Button.styled";
+
+export const StyledFooter = styled.footer`
+    display: flex;
+    flex-direction: column;
+    background-color: ${({theme}) => theme.colors.footer};
+    color: ${({theme}) => theme.colors.white};
+    padding: 2rem;
+
+    @media only screen and (min-width: ${({theme}) => theme.size.tablet}) {
+        padding: 6rem 6rem 2rem 6rem;
+    }
+
+    a {
+        color: unset;
+    }
+`
 
 export const StyledContent = styled.div`
-    color: ${({theme}) => theme.colors.white};
-    background-color: ${({theme}) => theme.colors.footer};
-    padding: 2rem;
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    margin-bottom: 4rem;
 
     > article > h3 {
         font-weight: 700;
@@ -15,7 +28,6 @@ export const StyledContent = styled.div`
     }
 
     @media only screen and (min-width: ${({theme}) => theme.size.tablet}) {
-        padding: 6rem;
         flex-direction: row;
         flex-flow: row-reverse;
         justify-content: space-between;
@@ -75,10 +87,5 @@ export const SocialMediaImage = styled.img`
 `
 
 export const SocialMediaSection = styled.div`
-    padding: 0 2rem 2rem 2rem;
-    background-color: ${({theme}) => theme.colors.footer};
-
-    @media only screen and (min-width: ${({theme}) => theme.size.tablet}) {
-        padding: 0 6rem 4rem 6rem;
-    }
+    margin-bottom: 4rem;
 `
