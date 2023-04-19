@@ -125,7 +125,7 @@ Error generating stack: `+o.message+`
 
     button {
         border-radius: 35px;
-        padding: 0.875em 2.5em;
+        padding: 1em 2.5em;
         align-self: center;
     }
 
@@ -351,7 +351,7 @@ Error generating stack: `+o.message+`
     }
 
     > h3 {
-        font-size: 3rem;
+        font-size: 4rem;
         font-weight: 700;
     }
 `,s0="/HuddleApp/assets/icon-communities-2595fb57.svg",a0="/HuddleApp/assets/icon-messages-78c67eca.svg",c0=me.article`
